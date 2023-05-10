@@ -33,8 +33,7 @@ if (number <= 1) {
 		for (i = 2; i < number; i++){
 			if (number % i === 0){
 				numberValue = false;	
-			}
-			
+			}	
 		}
  }			
 
@@ -47,12 +46,10 @@ if (number <= 1) {
 
  //5
 
-const numberA = 9;
-for ( i = 1; i < numberA; i++){
+const numberA = 20;
     if (numberA % 3 === 0) {
     	result = true;
     } else {
     	result = false;
     }
-}
 console.log(result);
