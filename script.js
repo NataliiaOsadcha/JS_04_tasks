@@ -2,7 +2,7 @@
 
 let str = ' ';
 for (let i = 20; i <= 30; i += 0.5){
-		str += `${i},`;
+	str += `${i},`;
 }
 console.log(str);
 
@@ -10,7 +10,7 @@ console.log(str);
 
 const value = 27;
 for (let i = 10; i <= 100; i += 10){
-		console.log(`$${i} - ₴${value * i}`);
+	console.log(`$${i} - ₴${value * i}`);
 }
 
 //3
